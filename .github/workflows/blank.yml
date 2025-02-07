@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest  
     steps:  
       - name: Envoyer une requête à Replit  
-        run: curl -I https://3bd89d87-2e9a-4eb4-b243-cb5cefb72965-00-1ngl3lnf2pymn.spock.replit.dev/
+        run: curl -I https://replit.com/@mythiccraftyt/OlivedrabRightSdk
