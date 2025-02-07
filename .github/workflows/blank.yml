@@ -1,6 +1,7 @@
 name: Keep Replit Alive  
 
 on:  
+  workflow_dispatch: 
   schedule:  
     - cron: "*/5 * * * *"  # Exécute toutes les 5 minutes  
 
