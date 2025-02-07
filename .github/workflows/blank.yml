@@ -1,0 +1,12 @@
+name: Keep Replit Alive  
+
+on:  
+  schedule:  
+    - cron: "*/5 * * * *"  # Exécute toutes les 5 minutes  
+
+jobs:  
+  ping:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - name: Envoyer une requête à Replit  
+        run: curl -I https://replit.com/@mythiccraftyt/OlivedrabRightSdk
